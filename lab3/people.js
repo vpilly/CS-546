@@ -29,15 +29,14 @@ function sortJson(a, b){
     const aName = a.lastName.toUpperCase();
     const bName = b.lastName.toUpperCase();
 
-    let dif = 0;
     if(aName > bName) {
-        dif = 1;
+        return 1;
     }
     else if(aName < bName) {
-        dif = -1;
+        return -1;
     }
 
-    return dif;
+    return 0;
 }
 
 async function lexIndex(index) {
