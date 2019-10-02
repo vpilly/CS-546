@@ -1,0 +1,15 @@
+{
+  "name": "inclass2",
+  "version": "1.0.0",
+  "description": "cs546 inclass assginment 2",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Varun Pilly 10419906",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.3.2"
+  }
+}
