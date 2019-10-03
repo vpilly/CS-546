@@ -15,7 +15,7 @@ async function getTask(id) {
 }
 
 async function getAllTasks() {
-    if(arguments.length !== 0) throw "Error: incorrect number of arguments for getTodos()";
+    if(arguments.length !== 0) throw "Error: incorrect number of arguments for getAllTasks()";
     const todoCollection = await todoItems();
     const todo = await todoCollection.find({}).toArray();
     return todo;
