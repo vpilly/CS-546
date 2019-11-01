@@ -1,0 +1,15 @@
+{
+  "name": "lab6",
+  "version": "1.0.0",
+  "description": "lab 6 for cs546",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Varun Pilly 10419906",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
