@@ -1,0 +1,51 @@
+body {
+  background: #5abbd8;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+main {
+  max-width: 75%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-decoration: underline overline;
+}
+
+label {
+  font-weight: bold;  
+  font-size: 1.5rem;
+  color: rgb(252, 252, 252);
+  margin: 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+#container {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.alert {
+  color: rgb(99, 3, 3);
+  font-weight: bold;  
+  font-size: 1.5rem;
+}
+
+.is-prime {
+  color: #00E676;
+}
+
+.not-prime {
+  color: #FF3D00;
+}
+
+.hidden {
+  display: none;
+}
+

@@ -1,0 +1,17 @@
+<ul>
+    {{#each peopleList}}
+    <li>
+        <a href="/details/{{id}}">{{name}}</a>
+    </li>
+    {{/each}}
+</ul>
+
+{{#if noPeople}}
+<p class="not-found">We're sorry, but no results were found for {{personName}}.</p>
+{{/if}}
+
+{{#if hasErrors}}
+<p class="error">No Input Entered</p>
+{{/if}}
+
+<a href="http://localhost:3000/">Make another search</a>

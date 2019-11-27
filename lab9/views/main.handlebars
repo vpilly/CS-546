@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Prime Number Checker</title>
+    <link rel="stylesheet" href="../public/css/site.css">
+</head>
+
+<body>
+    <header>
+        <h1>Prime Number Checker</h1>
+    </header>
+    <main>
+        <form id="static-form" method="post">
+            <label for="inputNum">
+                Enter Number Here
+            </label>
+            <br>
+            <input type="number" name="num" placeholder="Value" value="" id="inputNum" />
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="container">
+            <ul id="primeList">
+            </ul>
+        </div>
+
+        <div class="hidden" id="errorInfo">
+            <div class="alert text-goes-here">
+            </div>
+        </div>
+        <footer>Varun Pilly 10419906</footer>
+    </main>
+    <script src="../public/js/check.js"></script>
+</body>
+
+</html>
