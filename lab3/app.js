@@ -1,7 +1,7 @@
 async function tryblock(func, ...args) {
     try {
         console.log(await func(...args));
-    } catch(e) {
+    } catch (e) {
         console.log(e);
     }
 }
@@ -9,9 +9,9 @@ async function tryblock(func, ...args) {
 
 const people = require("./people");
 const weather = require("./weather");
-const work  = require("./work");
+const work = require("./work");
 
-async function main(){
+async function main() {
     await tryblock(people.getPersonById, 43);
     await tryblock(people.getPersonById, -1);
     await tryblock(people.getPersonById, 1000);
